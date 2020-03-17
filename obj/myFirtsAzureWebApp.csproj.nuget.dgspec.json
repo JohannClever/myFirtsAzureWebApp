@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudio\\MyFirtsAzureWebApp\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj": {}
+    "D:\\Pruebas de concepto\\MySource\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj": {}
   },
   "projects": {
-    "D:\\Estudio\\MyFirtsAzureWebApp\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj": {
+    "D:\\Pruebas de concepto\\MySource\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudio\\MyFirtsAzureWebApp\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj",
+        "projectUniqueName": "D:\\Pruebas de concepto\\MySource\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj",
         "projectName": "myFirtsAzureWebApp",
-        "projectPath": "D:\\Estudio\\MyFirtsAzureWebApp\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj",
-        "packagesPath": "C:\\Users\\PC Gamer\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudio\\MyFirtsAzureWebApp\\myFirtsAzureWebApp\\obj\\",
+        "projectPath": "D:\\Pruebas de concepto\\MySource\\myFirtsAzureWebApp\\myFirtsAzureWebApp.csproj",
+        "packagesPath": "C:\\Users\\johann.bolivar\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas de concepto\\MySource\\myFirtsAzureWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\johann.bolivar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -42,6 +40,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
